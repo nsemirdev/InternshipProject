@@ -46,7 +46,7 @@ final class LoginScrollView: UIScrollView {
     }()
     
     private let forgotPassword: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setTitle("Forgot Password?", for: .normal)
         button.setTitleColor(IPColor.textPrimary, for: .normal)
         button.contentHorizontalAlignment = .trailing
@@ -54,10 +54,8 @@ final class LoginScrollView: UIScrollView {
         return button
     }()
     
-    private let loginButton: UIButton = {
-        let button = UIButton(type: .system)
-        button.setTitle("Login", for: .normal)
-        button.backgroundColor = IPColor.actionLightPurple
+    private let loginButton: CustomButton = {
+        let button = CustomButton(title: "Login")
         return button
     }()
     
@@ -129,6 +127,7 @@ final class LoginScrollView: UIScrollView {
 extension LoginScrollView: UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textField.layer.borderColor = IPColor.actionDarkPurple.cgColor
+        textField.placeholderRect(forBounds: .init(x: 0, y: 0, width: 100, height: 30))
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {

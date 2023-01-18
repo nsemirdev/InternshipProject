@@ -26,13 +26,13 @@ final class CustomTextField: UITextField {
     override func textRect(forBounds bounds: CGRect) -> CGRect {
         CGRectInset(bounds, 18, 0)
     }
-    
+
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
-        CGRectInset(bounds, 18, 7)
+        CGRectInset(bounds, 18, 0)
     }
 
     override var alignmentRectInsets: UIEdgeInsets {
-        .init(top: 0, left: 8, bottom: 25, right: 8)
+        .init(top: 0, left: 0, bottom: 25, right: 0)
     }
 
     required init?(coder: NSCoder) {
