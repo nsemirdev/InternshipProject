@@ -14,6 +14,7 @@
 		2D9421192978203E0021AEB9 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9421182978203E0021AEB9 /* AppContainer.swift */; };
 		2D94211B2978205D0021AEB9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D94211A2978205D0021AEB9 /* AppRouter.swift */; };
 		2D9421212978219A0021AEB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9421202978219A0021AEB9 /* LoginViewController.swift */; };
+		2D942124297824360021AEB9 /* IPColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D942123297824360021AEB9 /* IPColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2D9421182978203E0021AEB9 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		2D94211A2978205D0021AEB9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		2D9421202978219A0021AEB9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D942123297824360021AEB9 /* IPColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		2D94210229781BCB0021AEB9 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D942122297824310021AEB9 /* Colors */,
 				2D94211C297821330021AEB9 /* Resources */,
 				2D942117297820320021AEB9 /* App */,
 				2D94211D297821660021AEB9 /* Scenes */,
@@ -108,6 +111,14 @@
 				2D9421202978219A0021AEB9 /* LoginViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2D942122297824310021AEB9 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				2D942123297824360021AEB9 /* IPColor.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 			files = (
 				2D9421192978203E0021AEB9 /* AppContainer.swift in Sources */,
 				2D94210429781BCB0021AEB9 /* AppDelegate.swift in Sources */,
+				2D942124297824360021AEB9 /* IPColor.swift in Sources */,
 				2D94211B2978205D0021AEB9 /* AppRouter.swift in Sources */,
 				2D9421212978219A0021AEB9 /* LoginViewController.swift in Sources */,
 				2D94210629781BCB0021AEB9 /* SceneDelegate.swift in Sources */,
