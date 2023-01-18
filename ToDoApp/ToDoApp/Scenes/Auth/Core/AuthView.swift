@@ -16,7 +16,7 @@ final class AuthView: UIView {
     ) {
         self.scrollView = scrollView
         super.init(frame: .zero)
-        
+        backgroundColor = IPColor.backgroundColor
         addSubview(scrollView)
     }
 

@@ -8,11 +8,12 @@
 import UIKit
 
 struct IPColor {
-    static let actionDarkPurple  = UIImage(named: "ActionPrimaryPurple100")!
-    static let actionLightPurple = UIImage(named: "ActionPrimaryPurple50")!
-    static let textPrimary       = UIImage(named: "TextPrimaryBlack")!
-    static let textSecondary     = UIImage(named: "TextSecondaryGray")!
-    static let helperRed         = UIImage(named: "HelperRed")!
-    static let helperGreen       = UIImage(named: "HelperGreen")!
-    static let helperYellow      = UIImage(named: "HelperYellow")!
+    static let actionDarkPurple  = UIColor(named: "ActionPrimaryPurple100")!
+    static let actionLightPurple = UIColor(named: "ActionPrimaryPurple50")!
+    static let textPrimary       = UIColor(named: "TextPrimaryBlack")!
+    static let textSecondary     = UIColor(named: "TextSecondaryGray")!
+    static let helperRed         = UIColor(named: "HelperRed")!
+    static let helperGreen       = UIColor(named: "HelperGreen")!
+    static let helperYellow      = UIColor(named: "HelperYellow")!
+    static let backgroundColor   = UIColor(named: "BackgroundColor")!
 }

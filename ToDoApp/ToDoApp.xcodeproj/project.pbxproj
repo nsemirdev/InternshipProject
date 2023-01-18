@@ -19,6 +19,20 @@
 		2D94212C297828610021AEB9 /* LoginScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D94212B297828610021AEB9 /* LoginScrollView.swift */; };
 		2D942130297829120021AEB9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D94212F297829120021AEB9 /* RegisterViewController.swift */; };
 		2D9421322978293B0021AEB9 /* RegisterScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9421312978293B0021AEB9 /* RegisterScrollView.swift */; };
+		2D94213529782C570021AEB9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D94213429782C570021AEB9 /* SnapKit */; };
+		2D94219B297839EC0021AEB9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D94219A297839EC0021AEB9 /* Fonts.swift */; };
+		2D9421D229783C2F0021AEB9 /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421C529783C2F0021AEB9 /* Inter-VariableFont_slnt,wght.ttf */; };
+		2D9421D329783C2F0021AEB9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421C729783C2F0021AEB9 /* Inter-Medium.ttf */; };
+		2D9421D429783C2F0021AEB9 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421C829783C2F0021AEB9 /* Inter-Light.ttf */; };
+		2D9421D529783C2F0021AEB9 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421C929783C2F0021AEB9 /* Inter-Thin.ttf */; };
+		2D9421D629783C2F0021AEB9 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421CA29783C2F0021AEB9 /* Inter-Bold.ttf */; };
+		2D9421D729783C2F0021AEB9 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421CB29783C2F0021AEB9 /* Inter-Regular.ttf */; };
+		2D9421D829783C2F0021AEB9 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421CC29783C2F0021AEB9 /* Inter-ExtraBold.ttf */; };
+		2D9421D929783C2F0021AEB9 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421CD29783C2F0021AEB9 /* Inter-ExtraLight.ttf */; };
+		2D9421DA29783C2F0021AEB9 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421CE29783C2F0021AEB9 /* Inter-Black.ttf */; };
+		2D9421DB29783C2F0021AEB9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421CF29783C2F0021AEB9 /* Inter-SemiBold.ttf */; };
+		2D9421DC29783C2F0021AEB9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421D029783C2F0021AEB9 /* OFL.txt */; };
+		2D9421DD29783C2F0021AEB9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421D129783C2F0021AEB9 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +50,19 @@
 		2D94212B297828610021AEB9 /* LoginScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScrollView.swift; sourceTree = "<group>"; };
 		2D94212F297829120021AEB9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2D9421312978293B0021AEB9 /* RegisterScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScrollView.swift; sourceTree = "<group>"; };
+		2D94219A297839EC0021AEB9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		2D9421C529783C2F0021AEB9 /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		2D9421C729783C2F0021AEB9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		2D9421C829783C2F0021AEB9 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		2D9421C929783C2F0021AEB9 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		2D9421CA29783C2F0021AEB9 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		2D9421CB29783C2F0021AEB9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		2D9421CC29783C2F0021AEB9 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2D9421CD29783C2F0021AEB9 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2D9421CE29783C2F0021AEB9 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		2D9421CF29783C2F0021AEB9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		2D9421D029783C2F0021AEB9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		2D9421D129783C2F0021AEB9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D94213529782C570021AEB9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,8 @@
 		2D94210229781BCB0021AEB9 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D9421C429783C2F0021AEB9 /* Inter */,
+				2D942199297839E30021AEB9 /* Fonts */,
 				2D942122297824310021AEB9 /* Colors */,
 				2D94211C297821330021AEB9 /* Resources */,
 				2D942117297820320021AEB9 /* App */,
@@ -165,6 +195,41 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2D942199297839E30021AEB9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2D94219A297839EC0021AEB9 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2D9421C429783C2F0021AEB9 /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				2D9421C529783C2F0021AEB9 /* Inter-VariableFont_slnt,wght.ttf */,
+				2D9421C629783C2F0021AEB9 /* static */,
+				2D9421D029783C2F0021AEB9 /* OFL.txt */,
+				2D9421D129783C2F0021AEB9 /* README.txt */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		2D9421C629783C2F0021AEB9 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				2D9421C729783C2F0021AEB9 /* Inter-Medium.ttf */,
+				2D9421C829783C2F0021AEB9 /* Inter-Light.ttf */,
+				2D9421C929783C2F0021AEB9 /* Inter-Thin.ttf */,
+				2D9421CA29783C2F0021AEB9 /* Inter-Bold.ttf */,
+				2D9421CB29783C2F0021AEB9 /* Inter-Regular.ttf */,
+				2D9421CC29783C2F0021AEB9 /* Inter-ExtraBold.ttf */,
+				2D9421CD29783C2F0021AEB9 /* Inter-ExtraLight.ttf */,
+				2D9421CE29783C2F0021AEB9 /* Inter-Black.ttf */,
+				2D9421CF29783C2F0021AEB9 /* Inter-SemiBold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +246,9 @@
 			dependencies = (
 			);
 			name = ToDoApp;
+			packageProductDependencies = (
+				2D94213429782C570021AEB9 /* SnapKit */,
+			);
 			productName = ToDoApp;
 			productReference = 2D94210029781BCB0021AEB9 /* ToDoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 2D9420F729781BCB0021AEB9;
+			packageReferences = (
+				2D94213329782C570021AEB9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2D94210129781BCB0021AEB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -223,7 +294,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9421DB29783C2F0021AEB9 /* Inter-SemiBold.ttf in Resources */,
+				2D9421D429783C2F0021AEB9 /* Inter-Light.ttf in Resources */,
+				2D9421D929783C2F0021AEB9 /* Inter-ExtraLight.ttf in Resources */,
+				2D9421D329783C2F0021AEB9 /* Inter-Medium.ttf in Resources */,
+				2D9421D829783C2F0021AEB9 /* Inter-ExtraBold.ttf in Resources */,
+				2D9421D529783C2F0021AEB9 /* Inter-Thin.ttf in Resources */,
+				2D9421D629783C2F0021AEB9 /* Inter-Bold.ttf in Resources */,
+				2D9421DA29783C2F0021AEB9 /* Inter-Black.ttf in Resources */,
+				2D9421DC29783C2F0021AEB9 /* OFL.txt in Resources */,
 				2D94211029781BCC0021AEB9 /* LaunchScreen.storyboard in Resources */,
+				2D9421D229783C2F0021AEB9 /* Inter-VariableFont_slnt,wght.ttf in Resources */,
+				2D9421D729783C2F0021AEB9 /* Inter-Regular.ttf in Resources */,
+				2D9421DD29783C2F0021AEB9 /* README.txt in Resources */,
 				2D94210D29781BCC0021AEB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +326,7 @@
 				2D942124297824360021AEB9 /* IPColor.swift in Sources */,
 				2D9421322978293B0021AEB9 /* RegisterScrollView.swift in Sources */,
 				2D94211B2978205D0021AEB9 /* AppRouter.swift in Sources */,
+				2D94219B297839EC0021AEB9 /* Fonts.swift in Sources */,
 				2D9421212978219A0021AEB9 /* LoginViewController.swift in Sources */,
 				2D94210629781BCB0021AEB9 /* SceneDelegate.swift in Sources */,
 			);
@@ -460,6 +544,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D94213329782C570021AEB9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D94213429782C570021AEB9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D94213329782C570021AEB9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D9420F829781BCB0021AEB9 /* Project object */;
 }
