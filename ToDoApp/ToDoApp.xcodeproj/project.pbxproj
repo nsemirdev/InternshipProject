@@ -33,6 +33,7 @@
 		2D9421DB29783C2F0021AEB9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421CF29783C2F0021AEB9 /* Inter-SemiBold.ttf */; };
 		2D9421DC29783C2F0021AEB9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421D029783C2F0021AEB9 /* OFL.txt */; };
 		2D9421DD29783C2F0021AEB9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421D129783C2F0021AEB9 /* README.txt */; };
+		2D9421E0297841EA0021AEB9 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9421DF297841EA0021AEB9 /* UIStackView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		2D9421CF29783C2F0021AEB9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		2D9421D029783C2F0021AEB9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		2D9421D129783C2F0021AEB9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2D9421DF297841EA0021AEB9 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		2D94210229781BCB0021AEB9 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D9421DE297841DD0021AEB9 /* Extensions */,
 				2D9421C429783C2F0021AEB9 /* Inter */,
 				2D942199297839E30021AEB9 /* Fonts */,
 				2D942122297824310021AEB9 /* Colors */,
@@ -230,6 +233,14 @@
 			path = static;
 			sourceTree = "<group>";
 		};
+		2D9421DE297841DD0021AEB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2D9421DF297841EA0021AEB9 /* UIStackView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +336,7 @@
 				2D94212C297828610021AEB9 /* LoginScrollView.swift in Sources */,
 				2D942124297824360021AEB9 /* IPColor.swift in Sources */,
 				2D9421322978293B0021AEB9 /* RegisterScrollView.swift in Sources */,
+				2D9421E0297841EA0021AEB9 /* UIStackView+.swift in Sources */,
 				2D94211B2978205D0021AEB9 /* AppRouter.swift in Sources */,
 				2D94219B297839EC0021AEB9 /* Fonts.swift in Sources */,
 				2D9421212978219A0021AEB9 /* LoginViewController.swift in Sources */,
