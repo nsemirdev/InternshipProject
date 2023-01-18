@@ -8,8 +8,15 @@
 import UIKit
 
 final class LoginViewController: UIViewController {
+        
+    private let loginScrollView = LoginScrollView()
+    
+    override func loadView() {
+        super.loadView()
+        view = AuthView(scrollView: loginScrollView)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemRed
     }
 }
