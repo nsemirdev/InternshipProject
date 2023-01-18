@@ -16,6 +16,6 @@ final class AppRouter {
         window = UIWindow(windowScene: windowScene)
         window?.makeKeyAndVisible()
         
-        window?.rootViewController = ViewController()
+        window?.rootViewController = LoginViewController()
     }
 }
