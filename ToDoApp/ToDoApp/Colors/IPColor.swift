@@ -16,4 +16,5 @@ struct IPColor {
     static let helperGreen       = UIColor(named: "HelperGreen")!
     static let helperYellow      = UIColor(named: "HelperYellow")!
     static let backgroundColor   = UIColor(named: "BackgroundColor")!
+    static let borderGray        = UIColor(named: "BorderGray")!
 }

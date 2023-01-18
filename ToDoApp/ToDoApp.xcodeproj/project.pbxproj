@@ -34,6 +34,7 @@
 		2D9421DC29783C2F0021AEB9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421D029783C2F0021AEB9 /* OFL.txt */; };
 		2D9421DD29783C2F0021AEB9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D9421D129783C2F0021AEB9 /* README.txt */; };
 		2D9421E0297841EA0021AEB9 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9421DF297841EA0021AEB9 /* UIStackView+.swift */; };
+		2D9421E22978437D0021AEB9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9421E12978437D0021AEB9 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		2D9421D029783C2F0021AEB9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		2D9421D129783C2F0021AEB9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		2D9421DF297841EA0021AEB9 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		2D9421E12978437D0021AEB9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				2D9421292978266B0021AEB9 /* AuthView.swift */,
+				2D9421E12978437D0021AEB9 /* CustomTextField.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9421E22978437D0021AEB9 /* CustomTextField.swift in Sources */,
 				2D942130297829120021AEB9 /* RegisterViewController.swift in Sources */,
 				2D94212A2978266B0021AEB9 /* AuthView.swift in Sources */,
 				2D9421192978203E0021AEB9 /* AppContainer.swift in Sources */,

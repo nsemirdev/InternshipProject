@@ -11,11 +11,9 @@ final class LoginScrollView: UIScrollView {
     
     private let overallStackView: UIStackView = {
         let stackView = UIStackView()
-//        stackView.layer.borderColor = UIColor.secondaryLabel.cgColor
-//        stackView.layer.borderWidth = 1
         stackView.alignment = .fill
         stackView.axis = .vertical
-        stackView.spacing = 24
+        stackView.spacing = 32
         return stackView
     }()
     
@@ -37,17 +35,13 @@ final class LoginScrollView: UIScrollView {
         return label
     }()
     
-    private let emailTextField: UITextField = {
-        let textField = UITextField()
-        textField.borderStyle = .roundedRect
-        textField.placeholder = "Email Address"
+    private let emailTextField: CustomTextField = {
+        let textField = CustomTextField(placeholder: "Email Address")
         return textField
     }()
     
-    private let passwordTextField: UITextField = {
-        let textField = UITextField()
-        textField.borderStyle = .roundedRect
-        textField.placeholder = "Password"
+    private let passwordTextField: CustomTextField = {
+        let textField = CustomTextField(placeholder: "Password")
         return textField
     }()
     
@@ -104,6 +98,9 @@ final class LoginScrollView: UIScrollView {
             height: contentSize.height - 140
         )
         
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+        
         setUpStackView()
     }
     
@@ -126,5 +123,15 @@ final class LoginScrollView: UIScrollView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+extension LoginScrollView: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.layer.borderColor = IPColor.actionDarkPurple.cgColor
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        textField.layer.borderColor = IPColor.borderGray.cgColor
     }
 }
